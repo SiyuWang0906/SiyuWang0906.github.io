@@ -1,3 +1,3 @@
-# MeshXL
+# CAD-GPT
 
-Project page for "MeshXL: Neural Coordinate Field for Generative 3D Foundation Models"
+Project page for "CAD-GPT: Synthesising CAD Construction Sequence with Spatial Reasoning-Enhanced Multimodal LLMs"
