@@ -1,3 +1,9 @@
 _site/
 push.sh
 .DS_Store
+CAD-GPT/image_models
+CAD-GPT/models
+CAD-GPT/gallery
+CAD-GPT/text_models
+CAD-GPT/static/videos
+CAD-GPT/static/imgs
