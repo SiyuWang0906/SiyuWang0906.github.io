@@ -200,20 +200,11 @@
                 <h2 class="title is-3">Abstract</h2>
                 <div class="content has-text-justified">
                     <p> 
-                        Computer-aided design (CAD) significantly enhances the efficiency, accuracy,
-                        and innovation of design processes by enabling precise 2D and 3D modeling,
-                        extensive analysis, and optimization. These models encapsulate and facilitate the modification of detailed parameters in construction processes,
-                        which is essential for creating precise 3D shapes. Existing methods for creating CAD models rely on latent vectors or point clouds,
-                        which are difficult to obtain and not cost-effective. Recent advances in Multimodal Large Language Models (MLLMs) have inspired researchers to use natural language instructions and images for CAD model construction. 
-                        However, these models still struggle with inferring 3D spatial location and orientation, 
-                        leading to inaccuracies in determining the spatial 3D starting points and extrusion directions for constructing geometries. 
-                        <span style="color: #ff3860">This work introduces CAD-GPT, a CAD synthesis method with spatial reasoningenhanced MLLM.</span>
-                        We innovatively develop a new positional encoding scheme that structures the 3D information of objects into lower dimensions, 
-                        thereby enhancing spatial expressiveness. Our method propose a 3D Modeling Spatial Mechanism for accurately inferring three types of spatial information: 
-                        1) 3D global location, thereby ensuring the correct spatial position of each 3D shape; 
-                        2) 3D sketch plane angles, which enables accurate orientation of the 2D sketch plane each time it is constructed; 
-                        3) 2D sketch location translation, through which the precision of the size and shape of the 2D sketches is guaranteed. 
-                        Extensive experiments demonstrate that CAD-GPT consistently outperforms existing state-of-the-art methods in CAD model synthesis, both quantitatively and qualitatively.
+                        Computer-aided design (CAD) significantly enhances the efficiency, accuracy, and innovation of design processes by enabling precise 2D and 3D modeling, extensive analysis, and optimization. 
+                        Existing methods for creating CAD models rely on latent vectors or point clouds, which are difficult to obtain and storage costs are substantial. Recent advances in Multi-modal Large Language Models (MLLMs) have inspired researchers to use natural language instructions and images for
+                        CAD model construction. However, these models still struggle with inferring accurate 3D spatial location and orientation, leading to inaccuracies in determining the spatial 3D starting points and extrusion directions for constructing geometries. <span style="color: #ff3860; font-weight: bold;">This work introduces CAD-GPT, a CAD synthesis method with spatial reasoning-enhanced MLLM. Our method propose a 3D Modeling Spatial Mechanism for accurately inferring spatial information. 
+                        This method maps 3D spatial positions and 3D sketch plane rotation angles into a 1D linguistic feature space using a specialized spatial unfolding mechanism while discretizing 2D sketch coordinates into an appropriate planar space, enabling precise determination of spatial
+                        position, sketch orientation, and translation.</span> Extensive experiments demonstrate that CAD-GPT consistently outperforms existing state-of-the-art methods in CAD model synthesis, both quantitatively and qualitatively.
                     </p>
                 </div>
                 
