@@ -649,12 +649,13 @@
     <div class="hero-body">
         <div class="container is-max-desktop">
             <h1 class="title is-4">Comparison of Different Methods for Image Input Scenarios</h1>
-             <div style="display: flex; justify-content: center; flex-direction: column; align-items: center;">
-                 <img src="./static/images_from_wsy/img_to_cad_new_render_test_1.png" alt="img2CAD" style="width: auto; height: auto; margin-top: 10px;">
-             </div>
-             <p>
+            <p>
                 Given a single image, CAD-GPT leverages its advanced spatial reasoning capabilities to accurately generate the modeling sequence of the CAD model depicted in the image.
-             </p>
+            </p>
+            <div style="display: flex; justify-content: center; flex-direction: column; align-items: center;">
+                <img src="./static/images_from_wsy/img_to_cad_new_render_test_1.png" alt="img2CAD" style="width: 80%; height: auto; margin-top: 10px;">
+            </div>
+            
             <!-- <div id="results-carousel2" class="carousel results-carousel"></div> -->
         </div>
     </div>
@@ -669,7 +670,7 @@
                 Given a textual description, CAD-GPT can generate a CAD model that precisely aligns with the semantics of the description.  
             </p>
             <div style="display: flex; justify-content: center; flex-direction: column; align-items: center;">
-                <img src="./static/images_from_wsy/txt_to_cad_new_render_test_1.png" alt="text2CAD" style="width: auto; height: auto; margin-top: 10px;">
+                <img src="./static/images_from_wsy/txt_to_cad_new_render_test_1.png" alt="text2CAD" style="width: 80%; height: auto; margin-top: 10px;">
             </div>
             <!-- <p>
                 Feel free to drag your mouse for a closer look.
@@ -679,6 +680,23 @@
    </div>
 </section>
 
+<section class="hero">
+    <div class="hero-body">
+        <div class="container is-max-desktop">
+            <h1 class="title is-4">Comparison of Generation Results with and without the 3D Modeling Spatial Mechanism</h1>
+            <p>
+                It is evident that with the addition of the 3D Modeling Spatial Mechanism, the model can accurately infer key parameters such as the 3D angles, 3D starting positions, and 2D sketch shapes during the modeling process, enabling precise model generation.
+            </p>
+            <div style="display: flex; justify-content: center; flex-direction: column; align-items: center;">
+                <img src="./static/images_from_wsy/with_and_without_loc_compare_new_render_1.png" alt="withorwithout3d" style="width: 80%; height: auto; margin-top: 10px;">
+            </div>
+            <!-- <p>
+                Feel free to drag your mouse for a closer look.
+            </p> -->
+            <!-- <div id="results-carousel3" class="carousel results-carousel"></div> -->
+        </div>
+    </div>
+</section>
 
 <script>
     
